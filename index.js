@@ -1,6 +1,6 @@
-let a = 3;
-a = a % 3;
-let b = a;
-b = b + 1;
-console.log(a);
-console.log(b);
+let a= prompt ("unesite vas broj")
+
+if (a > 100) {
+  console.log('ovaj broj je veci od sto');
+}
+ 
